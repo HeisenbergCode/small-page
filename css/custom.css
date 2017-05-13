@@ -79,7 +79,7 @@ h5 {
 **	Header
 */
 
-header#main{
+header.main{
 	margin-bottom: 40px;
 }
 
@@ -95,31 +95,31 @@ header#main .brand a {
 **	Nav
 */
 
-nav#main ul {
+nav ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	float: right;
 }
 
-nav#main ul li {
+nav ul li {
 	display: inline-block;
 	margin-right: 20px;
 } 
 
-nav#main ul li:last-child{
+nav ul li:last-child{
 	margin: 0;
 }
 
-nav#main ul li a {
+nav ul li a {
 	font-size: 78%;
 	text-transform: uppercase;
 	font-weight: 600;
 }
-nav#main ul li a:not(.button) {
+nav ul li a:not(.button) {
 	color: #393f4a;
 }
-nav#main ul li a:hover {
+nav ul li a:hover {
 	color: #fff;
 }
 
